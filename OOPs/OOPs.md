@@ -81,3 +81,41 @@ Hierarchical Inheritance ->
 Some other inheritances -> Mutliple and Hybrid(Not supported in java) -> can cause unnecessary complexity
 
 Keyword to achieve inheritence is extends
+
+*********************************************************************************************************
+
+Polymorphism-
+The ability for an object or function to take many different forms
+Java supports both run-time and compile-time polymorphism
+
+Benefits
+    1. Reduces complexity
+    2. Makes code more reusable
+    3. Make code more flexible by providing multiple ways to use similar functionality
+
+Compile-Time Polymorphism (Static Binding)
+🔹 AKA: Method Overloading
+Method call is resolved at compile time.
+Same method name, different parameter lists (type or count).
+Decided based on reference type and argument types.
+| Feature     | Compile-Time Polymorphism |
+| ----------- | ------------------------- |
+| Binding     | Happens at compile time   |
+| Speed       | Faster                    |
+| Flexibility | Less (static behavior)    |
+
+Run-Time Polymorphism (Dynamic Binding)
+🔹 AKA: Method Overriding
+Method call is resolved at runtime, based on the actual object type.
+Subclass overrides a method of the parent class.
+Enables dynamic behavior.
+| Feature     | Run-Time Polymorphism                   |
+| ----------- | --------------------------------------- |
+| Binding     | Happens at runtime                      |
+| Speed       | Slower (due to dynamic dispatch)        |
+| Flexibility | More (supports inheritance, interfaces) |
+
+Compile-time polymorphism improves readability and convenience (e.g. multiple constructors).
+Runtime polymorphism powers real-world OOP: flexible, modular, and extendable designs.
+
+
