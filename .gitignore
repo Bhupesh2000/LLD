@@ -1,0 +1,14 @@
+# Ignore compiled classes
+*.class
+
+# Ignore build directories (used by IDEs or tools)
+bin/
+out/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
