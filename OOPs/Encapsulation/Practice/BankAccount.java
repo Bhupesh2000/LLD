@@ -1,4 +1,4 @@
-package OOPs.Practice.Encapsulation;
+package OOPs.Encapsulation.Practice;
 
 public class BankAccount {
     private String owner;

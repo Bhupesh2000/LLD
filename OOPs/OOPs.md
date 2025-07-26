@@ -50,3 +50,34 @@ Public - accessible everywhere within the program
 
 *********************************************************************************************************
 
+Inheritance -
+Classes inherit properties of other classes.
+
+Subclass/Child class - the class which inherits the properties
+Superclass/Parent class - the class which is inherited from
+
+Eg.
+Employee class - name, Id, salary attributes/behaviours
+SalesPerson class - name, Id, salary + commission attributes/behaviours -> Employee + commision attributes/behaviours
+
+Benfits -
+    1. Avoids duplication
+    2. Additions or modification to super class will automatically affect subclasses
+    3. Promotes code reusability and scalability
+
+It is Is-A Relationship -> The Salesperson is an Employee.
+All Salesperson instances are also Employee
+Not all Employees instances are Salespersons
+
+Inheritance can be applied in many different ways
+Single-level Inheritance -> 
+    One superclass has one subclass
+        One superclass(Employee) -> One subclass(Salesperson)
+    One parent class has many subclasses
+        One superclass(Employee) -> Multiple subclasses(Salesperson, Analyst)
+Hierarchical Inheritance ->
+    A subclass act as superclass for another one
+        Superclass(Person) -> Subclass(Employee) -> Subclasses(Salesperson, Analyst)
+Some other inheritances -> Mutliple and Hybrid(Not supported in java) -> can cause unnecessary complexity
+
+Keyword to achieve inheritence is extends

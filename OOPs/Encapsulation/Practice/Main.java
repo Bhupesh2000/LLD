@@ -1,4 +1,4 @@
-package OOPs.Practice.Encapsulation;
+package OOPs.Encapsulation.Practice;
 
 public class Main {
     public static void main(String[] args) {

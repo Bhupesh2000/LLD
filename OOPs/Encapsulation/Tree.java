@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Encapsulation;
 
 import java.awt.Color;
 
