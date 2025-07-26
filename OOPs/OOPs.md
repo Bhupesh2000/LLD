@@ -1,14 +1,13 @@
 Object Oriented Programming is a programming model based on objects and data.
 It makes the code more flexible, reusable and easier to maintain.
 
-*********************************************************************************************************
-
 4 Pillars of OOPs
 1. Abstraction
 2. Inheritance
 3. Encapsulation
 4. Polymorphism
 
+****************************************************************************************************************************************
 
 Class - A blueprint containing a set of attributes and behaviours that define an item
 Object - An instance of a class
@@ -23,7 +22,7 @@ You need to create an instance to access these members
 
 Static Memebers - A part of the class that is accessible to the class and belongs to the class. It should be an attribute or a method that is not based on a particular instance. It belongs to all the instances of a class.
 
-*********************************************************************************************************
+****************************************************************************************************************************************
 
 Encapsulation - 
 Bind state and behaviour together in a single unit
@@ -48,7 +47,7 @@ No modifier - visible in the package it lives in
 Protected - visible to the package and all subclasses
 Public - accessible everywhere within the program
 
-*********************************************************************************************************
+****************************************************************************************************************************************
 
 Inheritance -
 Classes inherit properties of other classes.
@@ -82,7 +81,7 @@ Some other inheritances -> Mutliple and Hybrid(Not supported in java) -> can cau
 
 Keyword to achieve inheritence is extends
 
-*********************************************************************************************************
+****************************************************************************************************************************************
 
 Polymorphism-
 The ability for an object or function to take many different forms
@@ -118,4 +117,28 @@ Enables dynamic behavior.
 Compile-time polymorphism improves readability and convenience (e.g. multiple constructors).
 Runtime polymorphism powers real-world OOP: flexible, modular, and extendable designs.
 
+****************************************************************************************************************************************
 
+Abstraction-
+Helps hide implementation complexity. Complexity can be from an algo, an API or a design
+Goal is to generalise the feature of a given system
+If a system uses abstraction, it should provide the user with an eg input, output and broad description of what the system does without going into technical details
+
+Java supports abstract classes and interfaces
+Easier to contribute to abstract system as the engineers don't need to know every single contribution of the system they are working with
+
+Abstract class 
+    Allows to add abstraction to Java programs
+    Like a template class where some of the functionality is not implemented yet
+    class with abstract methods must be denoted as abstract class
+    Abstract class cannot be instantiated
+    Other class can extend Abstract class and implement the appropriate functionalities
+
+Interfaces
+    Another way to add abstraction to Java program
+    A set of method signature for to-be-implemented functionality
+    Specification for a set of behaviours without implementation
+    Cannot be instantiated
+    To use an interface, other class implements it using implement keyword
+
+****************************************************************************************************************************************
