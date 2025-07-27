@@ -1,6 +1,9 @@
 # Ignore compiled classes
 *.class
 
+# Ignore macOS-specific system file
+.DS_Store
+
 # Ignore build directories (used by IDEs or tools)
 bin/
 out/
