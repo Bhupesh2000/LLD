@@ -1,4 +1,4 @@
-package SolidPricipals.SRPBadCode;
+package SolidPricipals.SRP.SRPBadCode;
 
 public class Invoice {
     private double amount;

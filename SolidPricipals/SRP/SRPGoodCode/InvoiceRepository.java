@@ -1,4 +1,4 @@
-package SolidPricipals.SRPGoodCode;
+package SolidPricipals.SRP.SRPGoodCode;
 
 // class reesponsible for handling all db related operations for an invoice
 public class InvoiceRepository {

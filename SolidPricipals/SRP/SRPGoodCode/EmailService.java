@@ -1,4 +1,4 @@
-package SolidPricipals.SRPGoodCode;
+package SolidPricipals.SRP.SRPGoodCode;
 
 // handling for all emails related services for an Invoice
 public class EmailService {

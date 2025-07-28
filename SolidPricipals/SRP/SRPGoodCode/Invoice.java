@@ -1,4 +1,4 @@
-package SolidPricipals.SRPGoodCode;
+package SolidPricipals.SRP.SRPGoodCode;
 
 public class Invoice {
     private double amount;
