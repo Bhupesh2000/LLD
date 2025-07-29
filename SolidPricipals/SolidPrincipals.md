@@ -23,3 +23,16 @@ Eg. Adding new functionality to a system using inheritance or composition withou
 Making modification in already tested code can lead to potential bugs and errors in our code.
 So adding new classes or functions is fine and should not touch the previous written code unless exteremly required.
 OCP can be achieved using inheritance or composition
+
+********************************************************************************************************************************************
+
+Liskov Substitution Principal(LSP)
+The objects of a superclass should be replaceable with objects of a subclass, without altering the correctness of a program.
+It ensures that a subclass can stand in for its parent class and functions correctly in any context that expects the parent class.
+Eg. There is Bird class with differnt methods like eat(), fly() etc.
+Now there is a child class like ostrich which doesnot fly(). So in this case the ostrich class will be forced to implement fly(), like throw an exception, indicating this is a bad piece of code and violating LSP.
+No client should be forced to depend on methods it doesn't use. 
+Solution - Split large interfaces into smaller, more specific ones.
+
+********************************************************************************************************************************************
+
