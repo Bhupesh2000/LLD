@@ -39,3 +39,16 @@ Solution - Split large interfaces into smaller, more specific ones.
 Interface Segregation Principal(ISP)
 The classes should not be burdened with methods that they don't need. It promotes better design by breaking large general purpose interfaces into smaller and more specific ones.
 It improves the maintainability, flexibility, and testability by ensuring the classes only have the dependencies that they actually require.
+
+********************************************************************************************************************************************
+
+Dependency Inversion Principal(DIP)
+High level modules should not depend on low level modules; both should depend on abstractions.
+Eg. - Lets say there is a high level service for sending notification - notificationService.
+There are low level services which sends the notification - emailNotificationService, smsNotificationService.
+The high level notificationService should have objects of low level services like emailNotificationService and smsNotificationService,
+i.e. it should not depend on them
+The reason being if in future new service needs to be added like whatsAppNotificationService, then the parent class notificationService needs to modified as well.
+Rather the notificationService should be able to access the other services via abstraction.
+
+********************************************************************************************************************************************
