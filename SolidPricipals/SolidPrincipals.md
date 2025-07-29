@@ -36,3 +36,6 @@ Solution - Split large interfaces into smaller, more specific ones.
 
 ********************************************************************************************************************************************
 
+Interface Segregation Principal(ISP)
+The classes should not be burdened with methods that they don't need. It promotes better design by breaking large general purpose interfaces into smaller and more specific ones.
+It improves the maintainability, flexibility, and testability by ensuring the classes only have the dependencies that they actually require.
