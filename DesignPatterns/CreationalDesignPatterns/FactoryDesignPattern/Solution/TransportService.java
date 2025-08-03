@@ -1,0 +1,17 @@
+package DesignPatterns.CreationalDesignPatterns.FactoryDesignPattern.Solution;
+
+public class TransportService {
+    public static void main(String[] args) {
+        // Direct create objects
+        // Transport car = new Car(); // Tight coupling
+        // Transport bike = new Bike();
+
+        // car.deliver();
+        // bike.deliver();
+
+        Transport vehicle = TransportFactory.createTransport("car"); // this string can be changed at the runtime
+
+        vehicle.deliver();
+
+    }
+}
