@@ -1,4 +1,4 @@
-package DesignPatterns.BehavioralDesignPatterns.ObserverPattern.StatePattern;
+package DesignPatterns.BehavioralDesignPatterns.StatePattern;
 
 enum PauseState{
     PLAYING, PAUSE, STOPPED

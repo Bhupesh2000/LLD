@@ -1,4 +1,4 @@
-package DesignPatterns.BehavioralDesignPatterns.ObserverPattern.StatePattern;
+package DesignPatterns.BehavioralDesignPatterns.StatePattern;
 
 // Common interface for all states
 interface State {
