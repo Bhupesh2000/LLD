@@ -9,10 +9,10 @@ class NewsAgency {
     public void setNews(String news) {
         this.news = news;
         if (mobileApp != null) {
-            mobileApp.update(news);
+            mobileApp.update(this.news);
         }
         if (website != null) {
-            website.update(news);
+            website.update(this.news);
         }
     }
 
