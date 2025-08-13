@@ -20,8 +20,9 @@ public class VendingMachine {
 
     public Product selectProduct(){
         int price = product.getPrice();
-        if(stockCount == 0) throw new IllegalStateException("Out of stock");
-        if(currentAmount < price) throw new IllegalStateException("Insufficient amount. Need to pay " + (price - currentAmount) + " more");
+        if(stockCount == 0) throw new OutOfStockException("Out of stock");
+        int need = price - currentAmount;
+        if(currentAmount < price) throw new InsufficientFundsException("Insufficient amount. Need to pay " + need + " more", need);
         stockCount --;
         currentAmount -= price;
         return product;
