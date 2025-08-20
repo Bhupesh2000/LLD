@@ -6,7 +6,7 @@ public class ItemSlot {
 
     public ItemSlot(Product product, int initialStockCount){
         if(product == null) throw new IllegalArgumentException("product is required");
-        if(initialStockCount < 0) throw new IllegalArgumentException("stock count must be > 0");
+        if(initialStockCount < 0) throw new IllegalArgumentException("stock count must be >= 0");
         this.product = product;
         this.stockCount = initialStockCount;
     }
