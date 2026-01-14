@@ -1,6 +1,6 @@
 package DesignPatterns.BehavioralDesignPatterns.StrategyPattern;
 
-class PaymentService{
+class PaymentServiceII{
     public void processPayment(String method){
         if(method.equals("Credit Card")){
             System.out.println("Payment made via credit card");
@@ -16,7 +16,7 @@ class PaymentService{
 
 public class WithoutStrategyPattern {
     public static void main(String[] args) {
-        PaymentService paymentService = new PaymentService();
+        PaymentServiceII paymentService = new PaymentServiceII();
         paymentService.processPayment("Credit Card");
         paymentService.processPayment("Debit Card");
     }
